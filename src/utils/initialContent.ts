@@ -38,10 +38,15 @@ export const initialContent = `
 <p>A aplicação possui as seguintes funcionalidades:</p>
 
 <ul>
-    <li>Edição de texto selecionando o mesmo e escolhendo uma opção no menu suspenso.<br>
-    <img src="https://github.com/Bruno-bhab/notion-reactjs/blob/main/public/github/gif1.gif?raw=true" alt="float menu"></li>
-    <li>Formatação de linha usando o caractere '/'<br>
-    <img src="https://github.com/Bruno-bhab/notion-reactjs/blob/main/public/github/gif2.gif?raw=true" alt="side menu"></li>
+    <li>
+        Edição de texto selecionando o mesmo e escolhendo uma opção no menu suspenso.
+        <img src="https://github.com/Bruno-bhab/notion-reactjs/blob/main/public/github/gif1.gif?raw=true" alt="float menu">
+    </li>
+    
+    <li>
+        Formatação de linha usando o caractere '/'
+        <img src="https://github.com/Bruno-bhab/notion-reactjs/blob/main/public/github/gif2.gif?raw=true" alt="side menu">
+    </li>
 </ul>
 
 <h2>Exemplo de bloco de codigo em html</h2>
