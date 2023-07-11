@@ -2,6 +2,8 @@
 
 Esta é uma aplicação React criada com Vite, TypeScript e tailwind. A aplicação realiza uma cópia simples do Notion, utilizando o editor de texto HTML chamado Tiptap.
 
+## Demonstração
+Você pode acessar essa aplicação no link a seguir [Notion-react](https://tourmaline-churros-77cd34.netlify.app/)
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de desenvolvimento:
