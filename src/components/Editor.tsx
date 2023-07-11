@@ -7,6 +7,7 @@ import html from 'highlight.js/lib/languages/xml'
 import 'highlight.js/styles/tokyo-night-dark.css'
 import { EditorMenu } from "./EditorMenu"
 import { FloatingEditorMenu } from "./FloatingEditorMenu"
+import Image from '@tiptap/extension-image'
 
 
 
@@ -15,6 +16,7 @@ lowlight.registerLanguage('html', html)
 export function Editor() {
     const editor = useEditor({
         extensions: [
+            Image,
             StarterKit,
             CodeBlockLowlight.configure({
                 lowlight,
