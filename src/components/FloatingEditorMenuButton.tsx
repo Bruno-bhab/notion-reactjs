@@ -7,8 +7,7 @@ export interface FloatingEditorMenuButtonProps extends ComponentProps<'button'>{
     description: string;
 }
 
-export function FloatingEditorMenuButton({ img, altImg, title, description, onClick }: FloatingEditorMenuButtonProps){
-    
+export function FloatingEditorMenuButton({ img, altImg, title, description, onClick }: FloatingEditorMenuButtonProps){ 
     return (
         <button className="flex items-center gap-2 p-1 rounded min-w-[280px] hover:bg-zinc-600" onClick={onClick}>
             <img 

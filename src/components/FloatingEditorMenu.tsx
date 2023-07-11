@@ -1,14 +1,14 @@
 
 import { FloatingMenu, Editor } from "@tiptap/react";
-import { FloatingEditorMenuButton } from "./FloatingEditorMenuButton";
 import { useCallback, useState } from "react";
+
+import { FloatingEditorMenuButton } from "./FloatingEditorMenuButton";
 
 export interface FloatingEditorMenuProps{
     editor: Editor
 }
 
 export function FloatingEditorMenu({ editor }: FloatingEditorMenuProps){
-
     let [position, setPosition] = useState(0)
     
     const addImage = useCallback(() => {
@@ -18,10 +18,6 @@ export function FloatingEditorMenu({ editor }: FloatingEditorMenuProps){
             editor.chain().focus().setImage({ src: url }).run()
         }
     }, [editor])
-
-    if (!editor) {
-            return null
-    }
 
     const removeBar = () => {
         editor.commands.deleteRange({ from: position -1, to: position })

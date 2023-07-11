@@ -1,15 +1,15 @@
 import { useEditor, EditorContent } from "@tiptap/react"
-import StarterKit from "@tiptap/starter-kit"
-import { initialContent } from "../utils/initialContent"
-import { lowlight } from 'lowlight'
-import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight'
-import html from 'highlight.js/lib/languages/xml'
-import 'highlight.js/styles/tokyo-night-dark.css'
-import { EditorMenu } from "./EditorMenu"
-import { FloatingEditorMenu } from "./FloatingEditorMenu"
 import Image from '@tiptap/extension-image'
+import StarterKit from "@tiptap/starter-kit"
+import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight'
+import { lowlight } from 'lowlight'
+import html from 'highlight.js/lib/languages/xml'
 
+import { FloatingEditorMenu } from "./FloatingEditorMenu"
+import { EditorMenu } from "./EditorMenu"
+import { initialContent } from "../utils/initialContent"
 
+import 'highlight.js/styles/tokyo-night-dark.css'
 
 lowlight.registerLanguage('html', html)
 
