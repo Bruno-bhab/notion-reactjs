@@ -50,6 +50,12 @@ A aplicação possui as seguintes funcionalidades:
 
 
 
+-   Também é possível adicionar imagens (em desenvolvimento)
+![side menu](https://github.com/Bruno-bhab/notion-reactjs/blob/main/public/github/gif3.gif?raw=true)
+
+
+
+
 ## Personalização
 
 Você pode personalizar a aplicação de acordo com suas necessidades. O código-fonte está estruturado de forma modular e pode ser facilmente adaptado.
