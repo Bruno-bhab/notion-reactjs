@@ -1,4 +1,4 @@
-# Notion-React
+﻿# Notion-React
 
 Esta é uma aplicação React criada com Vite, TypeScript e tailwind. A aplicação realiza uma cópia simples do Notion, utilizando o editor de texto HTML chamado Tiptap.
 
@@ -19,9 +19,11 @@ Siga os passos abaixo para configurar o ambiente e executar a aplicação:
     
 3.  Navegue para o diretório do projeto:
     
+    
     `cd notion-reactjs` 
     
 4.  Instale as dependências do projeto usando o npm:
+
     
     `npm install` 
     
@@ -38,8 +40,15 @@ Isso iniciará a aplicação em modo de desenvolvimento. Abra seu navegador e ac
 
 A aplicação possui as seguintes funcionalidades:
 
--   Edição de texto formatado usando o editor Tiptap
--   Suporte para formatação de texto, como negrito, itálico, listas, cabeçalhos, etc.
+-   Edição de texto selecionando o mesmo e escolhendo uma opção no menu suspenso.
+![float menu](https://github.com/Bruno-bhab/notion-reactjs/blob/main/public/github/gif1.gif?raw=true)
+
+
+
+-   Formatação de linha usando o caractere '/'
+![side menu](https://github.com/Bruno-bhab/notion-reactjs/blob/main/public/github/gif2.gif?raw=true)
+
+
 
 ## Personalização
 
